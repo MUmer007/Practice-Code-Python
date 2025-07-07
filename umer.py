@@ -979,3 +979,33 @@
 a = 12
 b = 24
 print("A is greater" if a > b else "B is greater" if b > a else "A and B are equal")
+
+# A = [12, 13, 14, 15, 161, 16, 17, 228, 2828]      
+# index = 0
+# for mark in A:
+#      print(A)
+#      if (index == 3):
+#       print("Umer")
+#       index +=1        
+
+# marks = [12, 13, 14, 15, 161, 16, 17, 228, 2828]
+# index = 0
+
+# for mark in marks:
+#     print(mark)  # Changed from marks to mark to print each element
+#     if index == 3:
+#         print("Umer")
+#     index += 1  # Fixed indentation
+
+
+                                         # enumerate ussage
+
+
+fruits = ["Apple", "Mango", "Banana"]
+for index, fruit in enumerate(fruits, start=1):
+    print(index,fruit)
+
+# Loop over a list and print the index and value of each element
+# fruits = ['apple', 'banana', 'mango']
+# for index, fruit in enumerate(fruits):
+#     print(index, fruit)
